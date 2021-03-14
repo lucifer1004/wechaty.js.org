@@ -3,11 +3,13 @@ title: 'Puppet Service: Paimon'
 sidebar_label: Paimon
 ---
 
+[![Wechaty Puppet Service Paimon](https://img.shields.io/badge/Service-Paimon-blue)](paimon.md)
+
 - Provider: [zpaimon](https://github.com/zpaimon)
 - Support & Feedback: <https://github.com/wechaty/puppet-services/issues>
-- Service Level Agreement (SLA): To-be-added
-- End User License Agreement (EULA): To-be-added
+- Term of Service (ToS): To-be-added
 - Privacy Policy: To-be-added
+- Service Level Agreement (SLA): To-be-added
 
 ## How to buy
 

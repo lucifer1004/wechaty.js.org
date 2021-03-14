@@ -4,7 +4,6 @@ module.exports = {
   docs: {
     Introduction: [
       'introduction/README',
-      'introduction/multi-language',
       'introduction/puppet',
       'introduction/motivations',
       'introduction/concepts',
@@ -22,9 +21,27 @@ module.exports = {
       'tutorials/video-tutorial',
       CHATBOT_1_TO_2,
     ],
+    'Polyglot': [
+      'polyglot/README',
+      'polyglot/typescript',
+      'polyglot/python',
+      'polyglot/go',
+      'polyglot/java',
+      'polyglot/scala',
+      'polyglot/php',
+      'polyglot/dotnet',
+      'polyglot/rust',
+      'polyglot/diy',
+    ],
     Recipes: [
       'recipes/README',
-      'recipes/configure-wechaty',
+      'recipes/wechaty',
+      'recipes/event',
+      'recipes/message',
+      'recipes/contact',
+      'recipes/room',
+      'recipes/friendship',
+      'recipes/file-box',
       'recipes/usage-with-typescript',
       'recipes/usage-with-docker',
       'recipes/usage-with-heroku',
@@ -34,10 +51,24 @@ module.exports = {
     ],
     'Case Study': [
       'case-study/README',
-      'case-study/friday-bot',
       'case-study/osschat-bot',
       'case-study/rui-bot',
+      'case-study/friday-bot',
+      'case-study/coaxer-bot',
       'case-study/projects-using-wechaty',
+    ],
+    'Puppet Providers': [
+      'puppet-providers/README',
+      'puppet-providers/wechat',
+      'puppet-providers/whatsapp',
+      'puppet-providers/official-account',
+      'puppet-providers/gitter',
+      'puppet-providers/lark',
+      'puppet-providers/padlocal',
+      'puppet-providers/wechat4u',
+      'puppet-providers/service',
+      'puppet-providers/mock',
+      'puppet-providers/diy',
     ],
     'Puppet Services': [
       'puppet-services/README',
@@ -45,14 +76,11 @@ module.exports = {
       'puppet-services/padlocal',
       'puppet-services/paimon',
       'puppet-services/donut',
+      'puppet-services/diy',
     ],
     'Contributor Program': [
       'contributor-program/README',
       'contributor-program/publish-blog',
-    ],
-    'Google Summer of Code': [
-      'gsoc/README',
-      'gsoc/2021',
     ],
     'Events': [
       'events',
@@ -67,6 +95,14 @@ module.exports = {
         ],
       },
       'gsod/README',
+      {
+        type: 'category',
+        label: 'Google Summer of Code',
+        items: [
+          'gsoc/README',
+          'gsoc/2021',
+        ],
+      },
     ],
     'API Reference': [
       'api/README',
@@ -90,7 +126,7 @@ module.exports = {
     ],
     Others: [
       'changelog',
-      'others/cheatsheet',
+      'cheatsheet',
       'awesome-wechaty',
       'advanced',
       'resources',
