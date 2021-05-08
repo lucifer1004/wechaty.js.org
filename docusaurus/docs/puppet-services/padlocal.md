@@ -12,19 +12,17 @@ sidebar_label: PadLocal
 - Privacy Policy: To-be-added
 - Service Level Agreement (SLA): To-be-added
 
-## Known Issues
-
-- 新注册微信不能登陆报“SERVER_ERROR: 2 UNKNOWN: [tid:bec7b588] wechat bad request erro” #46: <https://github.com/padlocal/wechaty-puppet-padlocal/issues/46>
-- PadLocal: can not login after scan the QR code if the IP is not in China #62: <https://github.com/wechaty/puppet-services/issues/62>
-
 ## How to buy(apply)
 
-Please follow [TOKEN 申请方法](https://github.com/padlocal/wechaty-puppet-padlocal/wiki/TOKEN-%E7%94%B3%E8%AF%B7%E6%96%B9%E6%B3%95), or [submit an issue at here](https://github.com/wechaty/puppet-services/issues/new?assignees=padlocal&labels=padlocal&template=padlocal.md&title=PadLocal%3A+)
+👉🏻 [pad-local.com](http://pad-local.com/) 👈🏻, get **FREE** trail token for **7** days.
 
 ## Blogs
 
-- [.NET Wechaty如何使用PadLocal Puppet Service, Darren, Jan 28, 2021](https://wechaty.js.org/2021/01/28/csharp-wechaty-for-padlocal-puppet-service/)
+- [Python-wechaty & wechaty-puppet-padlocal的初探, iivveess, Mar 8, 2021](https://wechaty.js.org/2021/03/08/python-wechaty-and-wechaty-puppet-padlocal/)
 - [Python Wechaty如何使用PadLocal Puppet Service, Biofer, Feb, 3, 2021](https://wechaty.js.org/2021/02/03/python-wechaty-for-padlocal-puppet-service/)
+- [.NET Wechaty如何使用PadLocal Puppet Service, Darren, Jan 28, 2021](https://wechaty.js.org/2021/01/28/csharp-wechaty-for-padlocal-puppet-service/)
+
+Read more blogs with the `padlocal` tag at <https://wechaty.js.org/tags.html#padlocal>
 
 ## History
 
@@ -32,7 +30,3 @@ Please follow [TOKEN 申请方法](https://github.com/padlocal/wechaty-puppet-pa
 1. Testing Progress
 1. Beta Announcement
 1. Release Announcement
-
-## Contact
-
-- Wechat: oxddoxdd
